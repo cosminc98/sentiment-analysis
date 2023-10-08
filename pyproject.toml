@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling >= 1.13.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "vaderapi"
+description = "Simple REST API for sentiment analysis using VADER"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT License"}
+authors = [
+    { name = "Cosmin Stefan Ciocan", email = "ciocan.cosmin98@gmail.com" },
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python",
+]
+dependencies = [
+    "PyYAML>=6.0",
+    "fastapi[all]>=0.103.2",
+    "nltk>=3.8.1",
+]
+dynamic = ["version"]
+
+[tool.hatch.version]
+path = "vaderapi/__init__.py"
+
+[project.optional-dependencies]
+testing = ["pytest>=7.4.2", "python-dateutil>=2.8.2"]

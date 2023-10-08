@@ -1,0 +1,6 @@
+# ignore everything in .vscode/
+*
+
+# except
+!.gitignore
+!settings.json
