@@ -9,11 +9,11 @@ test:
 start:
 	bash scripts/run_api_server.sh
 
-docker-image:
-	bash scripts/create_docker_image.sh
+build-image:
+	bash scripts/build_docker_image.sh
 
 start-docker:
-	bash scripts/run_from_docker.sh
+	bash scripts/run_api_docker.sh
 
 test-docker:
 	bash scripts/run_tests_docker.sh
