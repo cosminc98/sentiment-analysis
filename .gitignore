@@ -45,3 +45,6 @@ coverage.xml
 
 # Virtual Environment
 venv/
+
+# Misc
+.pytest_cache/
