@@ -1,5 +1,7 @@
-<img src="https://cdn.worldvectorlogo.com/logos/fastapi-1.svg" width=10%>
-<img src="https://www.svgrepo.com/show/349342/docker.svg" width=10%>
+<p float="left">
+  <img src="https://cdn.worldvectorlogo.com/logos/fastapi-1.svg" width=10%>
+  <img src="https://www.svgrepo.com/show/349342/docker.svg" width=10%>
+</p>
 
 ## Description
 Quickly deploy the NLTK sentiment analysis model called "VADER" with this FastAPI powered project.
