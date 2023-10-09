@@ -1,4 +1,7 @@
-.PHONY: venv test start docker-image start-docker test-docker
+.PHONY: clean venv test start build-image start-docker test-docker
+
+clean:
+	rm -rf venv/ server.log .pytest_cache vaderapi/__pycache__ tests/__pycache__
 
 venv:
 	bash scripts/setup_venv.sh
