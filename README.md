@@ -1,6 +1,6 @@
 <p float="left">
-  <img src="https://cdn.worldvectorlogo.com/logos/fastapi-1.svg" width=10%>
-  <img src="https://www.svgrepo.com/show/349342/docker.svg" width=10%>
+  <img src="https://cdn.worldvectorlogo.com/logos/fastapi-1.svg" width=8%>
+  <img src="https://www.svgrepo.com/show/349342/docker.svg" width=8%>
 </p>
 
 ## Description
